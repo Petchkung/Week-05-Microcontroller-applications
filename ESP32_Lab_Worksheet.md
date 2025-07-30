@@ -631,6 +631,7 @@ void app_main() {
 #include <freertos/semphr.h>
 #include <esp_system.h>
 #include <esp_timer.h>
+#include <math.h>
 
 // Inter-core communication
 static QueueHandle_t core_queue;
