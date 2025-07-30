@@ -832,19 +832,19 @@ void app_main() {
 
 | Metric | Core 0 (PRO_CPU) | Core 1 (APP_CPU) |
 |--------|-------------------|-------------------|
-| Total Iterations | _______ | _______ |
-| Average Time per Iteration (μs) | _______ | _______ |
-| Total Execution Time (ms) | _______ | _______ |
-| Task Completion Rate | _______ | _______ |
+| Total Iterations | 100 | 150 |
+| Average Time per Iteration (μs) | 68 μs | 9677 μs |
+| Total Execution Time (ms) | 4992 ms | 5944 ms |
+| Task Completion Rate | 20 iter/s | 25 iter/s |
 
 **Table 4.2: Inter-Core Communication**
 
 | Metric | Value |
 |--------|-------|
-| Messages Sent | _______ |
-| Messages Received | _______ |
-| Average Latency (μs) | _______ |
-| Queue Overflow Count | _______ |
+| Messages Sent | 100 |
+| Messages Received | 100 |
+| Average Latency (μs) | 13000 μs |
+| Queue Overflow Count | 0 |
 
 ### คำถามวิเคราะห์
 
